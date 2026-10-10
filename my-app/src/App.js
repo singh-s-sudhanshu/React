@@ -16,6 +16,7 @@ function App() {
       text: inputTask,
       completed: false,
     };
+    //vs code
 
     setTodos([...todos, newTask]);
     setInputTask(''); // Clear input field
